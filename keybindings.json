@@ -1,8 +1,32 @@
 [
   // Place your key bindings in this file to override the defaults
+  // CURSOR
   {
     "key": "cmd+i",
     "command": "composerMode.agent"
+  },
+  {
+    "key": "cmd+shift+i",
+    "command": "composerMode.chat"
+  },
+  // AI/CURSOR DISABLED
+  {
+    "key": "cmd+l",
+    "command": "-aichat.newchataction"
+  },
+  {
+    "key": "cmd+l",
+    "command": "-composer.sendToAgent",
+    "when": "editorHasPromptBar && editorPromptBarFocused"
+  },
+  {
+    "key": "shift+cmd+l",
+    "command": "-aichat.insertselectionintochat"
+  },
+  {
+    "key": "shift+alt+cmd+l",
+    "command": "-workbench.action.quickchat.toggle",
+    "when": "chatIsEnabled"
   },
   // NAVIGATION
   {
@@ -96,15 +120,7 @@
     "command": "git.openChange",
     "when": "editorTextFocus && resourceScheme == 'file'"
   },
-  // EXTRA
-  {
-    "key": "cmd+shift+5",
-    "command": "editor.emmet.action.matchTag"
-  },
-  {
-    "key": "cmd+z",
-    "command": "workbench.action.toggleZenMode"
-  },
+  // IPYNB KEYBINDS 
   {
     "key": "alt+r",
     "command": "jupyter.interactive.clearAllCells",
@@ -114,5 +130,24 @@
     "key": "alt+shift+r",
     "command": "jupyter.restartkernel",
     "when": "editorTextFocus || focusedEditorIsInteractive || focusedEditorIsNativeNotebookEditor"
-  }
+  },
+  // OPEN FILEs
+  {
+    "key": "shift+cmd+o",
+    "command": "workbench.action.files.openFileFolder",
+    "when": "isMacNative && openFolderWorkspaceSupport"
+  },
+  {
+    "key": "cmd+o",
+    "command": "workbench.action.openRecent"
+  },
+  // EXTRA
+  {
+    "key": "cmd+shift+5",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "cmd+z",
+    "command": "workbench.action.toggleZenMode"
+  },
 ]
