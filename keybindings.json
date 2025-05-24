@@ -55,11 +55,6 @@
     "when": "explorerViewletFocus"
   },
   {
-    "key": "shift+n",
-    "command": "workbench.action.newWindow",
-    "when": "!explorerViewletFocus"
-  },
-  {
     "command": "deleteFile",
     "key": "d",
     "when": "filesExplorerFocus && !inputFocus"
@@ -110,4 +105,14 @@
     "key": "cmd+z",
     "command": "workbench.action.toggleZenMode"
   },
+  {
+    "key": "alt+r",
+    "command": "jupyter.interactive.clearAllCells",
+    "when": "editorTextFocus || focusedEditorIsInteractive || focusedEditorIsNativeNotebookEditor"
+  },
+  {
+    "key": "alt+shift+r",
+    "command": "jupyter.restartkernel",
+    "when": "editorTextFocus || focusedEditorIsInteractive || focusedEditorIsNativeNotebookEditor"
+  }
 ]

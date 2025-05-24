@@ -7,7 +7,6 @@
   "window.zoomLevel": 0.5,
   "launch": {},
   "[json]": {},
-  "workbench.statusBar.visible": false,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "update.showReleaseNotes": false,
