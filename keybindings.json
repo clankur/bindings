@@ -92,7 +92,7 @@
   },
   // GIT
   {
-    "key": "ctrl+shift+alt+cmd+g",
+    "key": "ctrl+shift+alt+g",
     "command": "git.openChange",
     "when": "editorTextFocus && resourceScheme == 'file'"
   },
