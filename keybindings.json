@@ -123,12 +123,12 @@
   {
     "key": "cmd+shift+.",
     "command": "workbench.action.compareEditor.nextChange",
-    "when": "editorTextFocus"
+    "when": "isInDiffEditor"
   },
   {
     "key": "cmd+shift+,",
     "command": "workbench.action.compareEditor.previousChange",
-    "when": "editorTextFocus"
+    "when": "isInDiffEditor"
   },
   // IPYNB KEYBINDS 
   {
