@@ -92,7 +92,7 @@
   {
     "key": "alt+j",
     "command": "list.focusDown",
-    "when": "listFocus && !inputFocus" // General list navigation
+    "when": "listFocus && !inputFocus"
   },
   {
     "key": "alt+j",
@@ -107,7 +107,7 @@
   {
     "key": "alt+k",
     "command": "list.focusUp",
-    "when": "listFocus && !inputFocus" // General list navigation
+    "when": "listFocus && !inputFocus"
   },
   {
     "key": "alt+k",
@@ -119,6 +119,16 @@
     "key": "ctrl+shift+alt+g",
     "command": "git.openChange",
     "when": "editorTextFocus && resourceScheme == 'file'"
+  },
+  {
+    "key": "cmd+shift+.",
+    "command": "workbench.action.compareEditor.nextChange",
+    "when": "isInDiffEditor"
+  },
+  {
+    "key": "cmd+shift+,",
+    "command": "workbench.action.compareEditor.previousChange",
+    "when": "isInDiffEditor"
   },
   // IPYNB KEYBINDS 
   {
