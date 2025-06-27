@@ -123,12 +123,12 @@
   {
     "key": "alt+j",
     "command": "workbench.action.compareEditor.nextChange",
-    "when": "textCompareEditorVisible"
+    "when": "textCompareEditorVisible && !suggestWidgetVisible && !listFocus && !inQuickOpen"
   },
   {
     "key": "alt+k",
     "command": "workbench.action.compareEditor.previousChange",
-    "when": "textCompareEditorVisible"
+    "when": "textCompareEditorVisible && !suggestWidgetVisible && !listFocus && !inQuickOpen"
   },
   // IPYNB KEYBINDS 
   {
