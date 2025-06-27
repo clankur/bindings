@@ -121,14 +121,14 @@
     "when": "editorTextFocus && resourceScheme == 'file'"
   },
   {
-    "key": "cmd+shift+.",
+    "key": "alt+j",
     "command": "workbench.action.compareEditor.nextChange",
-    "when": "isInDiffEditor"
+    "when": "textCompareEditorVisible"
   },
   {
-    "key": "cmd+shift+,",
+    "key": "alt+k",
     "command": "workbench.action.compareEditor.previousChange",
-    "when": "isInDiffEditor"
+    "when": "textCompareEditorVisible"
   },
   // IPYNB KEYBINDS 
   {
