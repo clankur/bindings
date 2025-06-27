@@ -126,16 +126,6 @@
     "command": "workbench.action.compareEditor.previousChange",
     "when": "textCompareEditorVisible && !suggestWidgetVisible && !listFocus && !inQuickOpen"
   },
-  {
-    "key": "ctrl+shift+.",
-    "command": "workbench.action.compareEditor.nextChange",
-    "when": "isInDiffEditor"
-  },
-  {
-    "key": "ctrl+shift+,",
-    "command": "workbench.action.compareEditor.previousChange",
-    "when": "isInDiffEditor"
-  },
   // IPYNB KEYBINDS 
   {
     "key": "alt+r",
