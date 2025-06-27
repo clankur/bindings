@@ -7,9 +7,9 @@
     "window.zoomLevel": 0.5,
     "launch": {},
     "[json]": {},
-    "editor.minimap.enabled": false,
     "update.showReleaseNotes": false,
     "zenMode.hideLineNumbers": false,
+    "zenMode.centerLayout": false,
     "vim.useSystemClipboard": true,
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
@@ -190,23 +190,6 @@
                 "editor.action.indentLines"
             ]
         },
-        // Move selected lines while staying in visual mode
-        {
-            "before": [
-                "J"
-            ],
-            "commands": [
-                "editor.action.moveLinesDownAction"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "editor.action.moveLinesUpAction"
-            ]
-        },
         // toggle comment selection
         {
             "before": [
@@ -222,5 +205,14 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "hidden",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "extensions.experimental.affinity": {
+        "ms-toolsai.jupyter": 1,
+        "ms-toolsai.jupyter-renderers": 1,
+        "ms-python.python": 1,
+        "ms-python.vscode-pylance": 1
+    },
+    "workbench.statusBar.visible": false,
+    "notebook.lineNumbers": "on"
 }
