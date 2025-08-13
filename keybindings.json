@@ -121,6 +121,11 @@
     "when": "editorTextFocus && resourceScheme == 'file'"
   },
   {
+    "key": "ctrl+shift+alt+cmd+`",
+    "command": "git.viewChanges",
+    "when": "editorTextFocus && resourceScheme == 'file'"
+  },
+  {
     "key": "alt+j",
     "command": "workbench.action.compareEditor.nextChange",
     "when": "textCompareEditorVisible && !suggestWidgetVisible && !listFocus && !inQuickOpen"

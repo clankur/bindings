@@ -222,5 +222,15 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "workbench.activityBar.location": "hidden"
+    "workbench.activityBar.location": "hidden",
+    "terminal.integrated.inheritEnv": false,
+    "remote.SSH.remotePlatform": {
+        "monitor": "linux"
+    },
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "One Hunter Flexoki Dark",
+    "workbench.colorCustomizations": {
+        "diffEditor.insertedTextBackground": "#1e4429aa",
+        "diffEditor.insertedLineBackground": "#0e2818aa",
+    }
 }
