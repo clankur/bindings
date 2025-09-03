@@ -1,6 +1,6 @@
 {
     "editor.formatOnSave": true,
-    "editor.suggest.insertMode": "replace",
+    "editor.suggest.insertMode": "insert",
     "terminal.integrated.fontFamily": "monospace",
     "editor.linkedEditing": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -227,10 +227,13 @@
     "remote.SSH.remotePlatform": {
         "monitor": "linux"
     },
-    "workbench.statusBar.visible": false,
     "workbench.colorTheme": "One Hunter Flexoki Dark",
     "workbench.colorCustomizations": {
-        "diffEditor.insertedTextBackground": "#1e4429aa",
-        "diffEditor.insertedLineBackground": "#0e2818aa",
-    }
+        "diffEditor.insertedTextBackground": "#1e442955",
+        "diffEditor.insertedLineBackground": "#0e281855",
+        "editor.selectionBackground": "#264f78cc",
+        "editor.selectionHighlightBackground": "#add6ff40"
+    },
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.statusBar.visible": false
 }
