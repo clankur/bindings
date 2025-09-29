@@ -64,18 +64,23 @@
   },
   // NAVIGATION
   {
-    "key": "cmd+shift+a",
+    "key": "cmd+shift+j",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+shift+b",
+    "key": "cmd+shift+k",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
+  // for terminal and claude code
   {
-    "key": "cmd+shift+j",
-    "command": "workbench.action.togglePanel"
+    "key": "cmd+i",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "cmd+j",
+    "command": "-workbench.action.togglePanel"
   },
   {
     "key": "cmd+shift+n",
@@ -183,8 +188,7 @@
   // OPEN FILEs
   {
     "key": "shift+cmd+o",
-    "command": "workbench.action.files.openFileFolder",
-    "when": "isMacNative && openFolderWorkspaceSupport"
+    "command": "explorer.openToSide"
   },
   {
     "key": "cmd+o",

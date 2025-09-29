@@ -227,7 +227,6 @@
     "remote.SSH.remotePlatform": {
         "monitor": "linux"
     },
-    "workbench.colorTheme": "One Hunter Flexoki Dark",
     "workbench.colorCustomizations": {
         "diffEditor.insertedTextBackground": "#1e442955",
         "diffEditor.insertedLineBackground": "#0e281855",
@@ -235,5 +234,6 @@
         "editor.selectionHighlightBackground": "#add6ff40"
     },
     "workbench.secondarySideBar.defaultVisibility": "hidden",
-    "workbench.statusBar.visible": false
+    "workbench.statusBar.visible": false,
+    "security.workspace.trust.untrustedFiles": "open"
 }
