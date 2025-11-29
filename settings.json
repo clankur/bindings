@@ -222,18 +222,15 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "workbench.activityBar.location": "hidden",
     "terminal.integrated.inheritEnv": false,
     "remote.SSH.remotePlatform": {
         "monitor": "linux"
     },
-    "workbench.colorCustomizations": {
-        "diffEditor.insertedTextBackground": "#1e442955",
-        "diffEditor.insertedLineBackground": "#0e281855",
-        "editor.selectionBackground": "#264f78cc",
-        "editor.selectionHighlightBackground": "#add6ff40"
-    },
+    "workbench.activityBar.location": "hidden",
     "workbench.secondarySideBar.defaultVisibility": "hidden",
     "workbench.statusBar.visible": false,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "chat.disableAIFeatures": true,
+    "workbench.editor.editorActionsLocation": "titleBar"
 }

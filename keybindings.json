@@ -58,29 +58,33 @@
   },
   // Claude Code
   {
-    "key": "shift+cmd+i",
+    "key": "cmd+i",
     "command": "claude-code.insertAtMentioned",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+i",
+    "command": "workbench.action.toggleAuxiliaryBar",
   },
   // NAVIGATION
   {
     "key": "cmd+shift+j",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "cmd+shift+h",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "cmd+shift+k",
+    "key": "cmd+shift+l",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   // for terminal and claude code
   {
-    "key": "cmd+i",
-    "command": "workbench.action.toggleAuxiliaryBar"
-  },
-  {
     "key": "cmd+j",
-    "command": "-workbench.action.togglePanel"
+    "command": "workbench.action.togglePanel"
   },
   {
     "key": "cmd+shift+n",
